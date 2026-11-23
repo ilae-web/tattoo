@@ -1,0 +1,45 @@
+/* Красивый блок приветствия в стиле дорогих лендингов */
+.hero-section {
+    max-width: 800px;
+    margin: 40px 0 60px 0;
+    padding: 20px 0;
+}
+.hero-badge {
+    background: rgba(0, 255, 240, 0.1);
+    color: #00fff0;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 0.85em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border: 1px solid rgba(0, 255, 240, 0.2);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.hero-subtitle {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #a1a1aa;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.hero-btn {
+    display: inline-block;
+    background: #00fff0;
+    color: #000000;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.95em;
+    box-shadow: 0 0 30px rgba(0, 255, 240, 0.3);
+    transition: all 0.3s ease;
+}
+.hero-btn:hover {
+    background: #ffffff;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+}

@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru" class="notranslate" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <title>Добро пожаловать | Тату-Студия</title>
+    <style>
+        @import url('https://googleapis.com');
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; color: #ffffff; background-color: #050506;
+            background-image: linear-gradient(rgba(5, 5, 6, 0.9), rgba(5, 5, 6, 0.9)), url('https://unsplash.com');
+            background-size: cover; background-position: center;
+        }
+        .welcome-card {
+            background: rgba(15, 15, 20, 0.5); padding: 50px; border-radius: 32px; border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(25px); text-align: center; box-shadow: 0 30px 60px rgba(0,0,0,0.6); max-width: 450px; width: 100%; box-sizing: border-box;
+        }
+        h1 { font-size: 2.2em; font-weight: 800; margin-bottom: 10px; background: linear-gradient(135deg, #ffffff 30%, #00fff0 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        p { color: #a1a1aa; font-size: 1.05em; margin-bottom: 40px; line-height: 1.5; }
+        .choice-btn { display: block; width: 100%; padding: 18px; margin-bottom: 16px; border-radius: 16px; font-size: 1em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; text-decoration: none; box-sizing: border-box; transition: all 0.3s ease; }
+        .btn-client { background: #ffffff; color: #000000; }
+        .btn-client:hover { background: #00fff0; box-shadow: 0 0 30px rgba(0, 255, 240, 0.4); transform: scale(0.98); }
+        .btn-admin { background: rgba(255, 255, 255, 0.03); color: #ffffff; border: 1px solid rgba(255, 255, 255, 0.1); }
+        .btn-admin:hover { background: rgba(255, 255, 255, 0.08); border-color: #ffffff; transform: scale(0.98); }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-card">
+        <h1>Вход в систему</h1>
+        <p>Добро пожаловать в цифровую платформу тату-студии. Пожалуйста, выберите вашу роль для продолжения работы:</p>
+        
+        <a href="/catalog/" class="choice-btn btn-client">✨ Войти как Клиент</a>
+        <a href="/panel/" class="choice-btn btn-admin">🛠 Вход для Персонала</a>
+    </div>
+
+</body>
+</html>
